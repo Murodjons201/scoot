@@ -1,5 +1,6 @@
 .hero {
     margin: 0 auto;
+    margin-bottom: 160px;
     padding: 157px 0;
     width: 100%;
     max-width: 1440px;
@@ -77,6 +78,7 @@
 @media only screen and (max-width:930px) {
     .hero {
         margin: 0 auto;
+        margin-bottom: 160px;
         padding: 137px 0 217px;
         width: 100%;
         max-width: 930px;
@@ -145,6 +147,7 @@
 @media only screen and (max-width:600px) {
     .hero {
         margin: 0 auto;
+        margin-bottom: 120px;
         padding: 137px 0 217px;
         width: 100%;
         max-width: 600px;
@@ -235,5 +238,16 @@
             left: -65%;
             width: 100%;
         }
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: url("../images/hero2@2x.png");
     }
 }
