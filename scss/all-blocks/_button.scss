@@ -1,0 +1,24 @@
+.button {
+    margin: 0;
+    padding: 14px 39px;
+    width: 100%;
+    max-width: 186px;
+    border: none;
+    background-color: #fcb72b;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    border: 3px solid transparent;
+    color: #ffffff;
+    transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button:active {
+    background-color: #fff;
+    color: #fcb72b;
+    border: 3px solid #fcb72b;
+}
