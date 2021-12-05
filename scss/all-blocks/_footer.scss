@@ -5,7 +5,7 @@
     background-image: url("../images/footer-top.png");
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-color: #495567;
+    background-color: $footer-top__backcolor;
 
     &__hero {
         position: relative;
@@ -25,7 +25,7 @@
         font-size: 48px;
         line-height: 48px;
         letter-spacing: -2px;
-        color: #ffffff;
+        color: $footer-top__heading-color;
     }
 
     &__list {
@@ -39,7 +39,7 @@
 
     &__item {
         padding: 11px 16px;
-        background-color: #e5ecf4;
+        background-color: $footer-top__item-backcolor;
         border-radius: 4px;
     }
 
@@ -72,7 +72,7 @@
         font-size: 10px;
         line-height: 15px;
         letter-spacing: -0.446429px;
-        color: #495567;
+        color: $footer-top__item-color;
     }
 
     &__title {
@@ -82,12 +82,12 @@
         font-size: 20px;
         line-height: 24px;
         letter-spacing: -0.892857px;
-        color: #495567;
+        color: $footer-top__item-color;
     }
 }
 
 .footer-bottom {
-    background-color: #333a44;
+    background-color: $footer-bottom__backcolor;
 
     &__hero {
         display: flex;
@@ -125,7 +125,7 @@
         text-decoration: none;
         font-size: 15px;
         line-height: 25px;
-        color: #939caa;
+        color: $footer-bottom__item-color;
         transition: color 0.5s ease-in-out;
     }
 
@@ -203,7 +203,6 @@
             font-size: 10px;
             line-height: 15px;
             letter-spacing: -0.446429px;
-            color: #495567;
         }
 
         &__title {
@@ -213,7 +212,6 @@
             font-size: 17px;
             line-height: 20px;
             letter-spacing: -0.892857px;
-            color: #495567;
         }
     }
 }
