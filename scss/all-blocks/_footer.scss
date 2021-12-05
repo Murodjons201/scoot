@@ -38,11 +38,15 @@
     }
 
     &__item {
-        display: flex;
-        align-items: center;
         padding: 11px 16px;
         background-color: #e5ecf4;
         border-radius: 4px;
+    }
+
+    &__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
     }
 
     &__item + &__item {
